@@ -1,5 +1,5 @@
 Algoritmo "alg8"
-
+\exemplo para a professora/
 Var
 TL,TB,QL,QB:inteiro
 RESP:caracter
@@ -60,14 +60,14 @@ repita
   escreval("deseja outra bebida?")
   leia(RESP)
 ATE(RESP<>"5") e (RESP<>"5")
-  escreval("o total da compra é de ",TOTALLANCHE+TOTALBEBIDA)
+  escreval("o total da compra Ã© de ",TOTALLANCHE+TOTALBEBIDA)
   escreval("digite o valor pago")
   leia(VP)
   se(VP<(TOTALLANCHE+TOTALBEBIDA))entao
    escreval("valor insuficiente")
   senao
    troco:=VP-(TOTALLANCHE+TOTALBEBIDA)
-   escreval("seu troco é de: ",troco)
+   escreval("seu troco Ã© de: ",troco)
   fimse
 
 Fimalgoritmo
